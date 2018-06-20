@@ -1,5 +1,3 @@
-describe "main test " {
-    it " start string compare " {
-        "hogehoge " | Should -be "hogehoge"
-    }
-}
+New-Fixture Test Test1
+
+Invoke-Pester ./Test/Test1.Tests.ps1
